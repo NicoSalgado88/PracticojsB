@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Registro</title>
+</head>
+<body>
+    <h1>Formulario de Registro</h1>
+
+    <form onsubmit="return validarFormulario()" id="formulario" method="post" action="#">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre">
+        <br>
+
+        <label for="edad">Edad:</label>
+        <input type="text" id="edad">
+        <br>
+
+        <label for="email">Email:</label>
+        <input type="text" id="email">
+        <br>
+
+        <button type="submit" id="submit">Enviar</button>
+    </form>
+
+    <script src="funciones.js"></script>
+</body>
+</html>

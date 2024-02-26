@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="ej2.js"></script>
+</head>
+<body>
+    <div id="contenedor">
+    <form id="formulario" action="#" onsubmit="return verificar()" method="post">
+        <label for="nombre">Nombre</label><br>
+        <input type="text" id="nombre" name="nombre">
+        <span id="errornombre"></span><br>
+
+        <label for="apellido">Apellido</label><br>
+        <input type="text" id="apellido" name="apellido">
+        <span id="errorapellido"></span><br>
+
+        <input type="radio" id="masculino" name="eleccion" value="M">
+        <label for="masculino">M</label>
+        <input type="radio" id="femenino" name="eleccion" value="F">
+        <label for="femenino">F</label>
+        <span id="errorsexo"></span><br>
+
+        <label for="fecha">Fecha de Nacimiento</label><br>
+        <input type="date" id="fecha" name="fecha">
+        <span id="errorfecha"></span><br>
+
+        <label for="mail">Correo</label>
+        <input type="text" id="mail" name="mail">
+        <span id="errormail"></span><br>
+
+        <button type="submit">Verificar</button>
+    </form>
+</div>
+</body>
+</html>
