@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Formulario de Verificación de usuario y contraseña</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body id="fondo">
+    <h1>Verificación de Usuario y Contraseña</h1>
+    <br>
+    <br>
+    <div id="cajaDeCredenciales">
+        <form id="formulario">
+            <br>
+            <label for="usuario">Usuario:</label>
+            <input type="text" id="usuario" name="usuario">
+            <br>
+            <br>
+            <label for="contrasena">Contraseña:</label>
+            <input type="password" id="contrasena" name="contrasena">
+            <br>
+            <br>
+            <button type="button" onclick="validarCreds();">Verificar</button>
+        </form>
+    </div>
+    <script src="scripts.js"></script>
+  </body>
+</html>
