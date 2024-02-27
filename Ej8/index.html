@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coordenadas del Ratón</title>
+    <script>
+
+        function capturarCoordenadas(evento) {
+            var mouseX = evento.clientX;
+            var mouseY = evento.clientY;
+            
+            document.title = "X: " + mouseX + ", Y: " + mouseY;
+        }
+        
+        document.addEventListener("mousemove", capturarCoordenadas);
+    </script>
+    
+</head>
+<body>
+
+    <h1>Captura las Coordenadas del Ratón</h1>
+    <p>Mueva el ratón para ver las coordenadas en el título del documento.</p>
+    <pre>
+             (\-.
+             / _`> .---------.
+     _)     / _)=  |'-------'|
+    (      / _/    |O   O   o|
+     `-.__(___)_   | o O . o |
+                   `---------'
+    </pre>
+    
+</body>
+</html>
