@@ -2,7 +2,7 @@
 Luego realice las validaciones para cada uno de los campos.*/
 
 
-function mostrarmensaje(){}
+//function mostrarmensaje(){}
 function verificar(){
     let miformulario=document.forms["formulario"];
     let nombre=miformulario["nombre"].value;
